@@ -49,10 +49,16 @@ public class Pagina_Principal extends javax.swing.JFrame {
         bttnUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/sistema_gestion_ventas/Imagenes/agregar-usuario.png"))); // NOI18N
         bttnUsuarios.setText("Usuarios");
 
+        bttnPlanes.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        bttnPlanes.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrador\\Documents\\NetBeansProjects\\Sistema_Gestion_Ventas\\src\\main\\java\\com\\mycompany\\sistema_gestion_ventas\\Imagenes\\juego-de-cartas.png")); // NOI18N
         bttnPlanes.setText("Planes");
 
+        bttnEstadisticas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        bttnEstadisticas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/sistema_gestion_ventas/Imagenes/informe.png"))); // NOI18N
         bttnEstadisticas.setText("Estadisticas");
 
+        bttnTransacciones.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        bttnTransacciones.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrador\\Documents\\NetBeansProjects\\Sistema_Gestion_Ventas\\src\\main\\java\\com\\mycompany\\sistema_gestion_ventas\\Imagenes\\transaccion (1).png")); // NOI18N
         bttnTransacciones.setText("Transacciones");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -73,7 +79,7 @@ public class Pagina_Principal extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(220, Short.MAX_VALUE)
+                .addContainerGap(204, Short.MAX_VALUE)
                 .addComponent(bttnInicio, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(bttnFinanzas)
